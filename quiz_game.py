@@ -1,8 +1,9 @@
 print("Welcome to quiz game!")
 
-playing = input("Do you want to play?")
+playing = input("Do you want to play? ")
 
 if playing.lower() != "yes":
+    # can also do playing.upper() != "YES":
     quit()
 
 print("Ok! Let's play :)")
